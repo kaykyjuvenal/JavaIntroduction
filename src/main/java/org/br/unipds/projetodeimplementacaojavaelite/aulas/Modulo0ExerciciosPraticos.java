@@ -22,7 +22,7 @@ public class Modulo0ExerciciosPraticos {
         double altura = 1.95;
         return Math.round(peso / (altura * altura));
     }
-    public String isAdult(int idade){
+    public static String isAdult(int idade){
         if (idade >=  18){
             return "Acesso Permitido!";
         }else{
