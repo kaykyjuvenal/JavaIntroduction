@@ -13,7 +13,9 @@ public class ProjetoDeImplementacaoJavaEliteApplication {
         Modulo0ExerciciosPraticos.meuContato();
         System.out.println();
         System.out.println(Modulo0ExerciciosPraticos.calculadoraIMCSemParametros());
-        System.out.println(Modulo0ExerciciosPraticos.isAdult(17));
+        System.out.println(Modulo0ExerciciosPraticos.isAdult(18));
+        Modulo0ExerciciosPraticos.retornaAvisoCompras();
+        System.out.println(Modulo0ExerciciosPraticos.retornaMediaDeNotas());
     }
 
 }
