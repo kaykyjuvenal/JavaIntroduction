@@ -10,6 +10,7 @@ public class ProjetoDeImplementacaoJavaEliteApplication {
     static void main(String[] args) {
         SpringApplication.run(ProjetoDeImplementacaoJavaEliteApplication.class, args);
         Aula1ExerciciosPraticos.ex1();
+        Aula1ExerciciosPraticos.meuContato();
     }
 
 }
