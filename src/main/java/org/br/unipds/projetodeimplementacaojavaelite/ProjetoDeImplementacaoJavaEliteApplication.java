@@ -1,6 +1,6 @@
 package org.br.unipds.projetodeimplementacaojavaelite;
 
-import org.br.unipds.projetodeimplementacaojavaelite.aulas.Aula1ExerciciosPraticos;
+import org.br.unipds.projetodeimplementacaojavaelite.aulas.Modulo0ExerciciosPraticos;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,8 +9,10 @@ public class ProjetoDeImplementacaoJavaEliteApplication {
 
     static void main(String[] args) {
         SpringApplication.run(ProjetoDeImplementacaoJavaEliteApplication.class, args);
-        Aula1ExerciciosPraticos.ex1();
-        Aula1ExerciciosPraticos.meuContato();
+        Modulo0ExerciciosPraticos.ex1();
+        Modulo0ExerciciosPraticos.meuContato();
+        System.out.println();
+        System.out.println(Modulo0ExerciciosPraticos.calculadoraIMCSemParametros());
     }
 
 }
